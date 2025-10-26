@@ -1,0 +1,95 @@
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: green;
+    }
+    
+    .navbar-left {
+        padding-left: 20px;
+    }
+    
+    .navbar-right {
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .a-element {
+        padding: 10px;
+        border: 1px solid red;
+        margin: 2px;
+    }
+    
+    .home {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .home-left {
+        width: 50vw;
+    }
+    
+    .home-right {
+        width: 50vw;
+        background-color: green;
+    }
+    
+    .home h1 {
+        font-style: italic;
+    }
+    
+    .home p {
+        font-style: normal;
+    }
+    
+    .service {
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .service h1 {
+        font-style: italic;
+        color: rgb(31, 206, 31);
+        letter-spacing: 3px;
+        font-size: 50px;
+    }
+    
+    .services-sub-cont {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .services-card {
+        border: 2px green solid;
+        margin: 56px;
+        padding: 20px;
+        width: 400px;
+    }
+    
+    .sc-h1 {
+        font-style: oblique;
+        font-size: 20px;
+    }
+    
+    .sc-p {
+        font-style: normal;
+        color: brown;
+    }
+    
+    .contact {
+        text-align: center;
+    }
+    
+    .contact-info {
+        font-style: oblique;
+        font-size: 20px;
+    }
+    
+    .social-icon-img {
+        height: 50px;
+    }
